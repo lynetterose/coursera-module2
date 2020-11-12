@@ -17,30 +17,61 @@ padding: 0px;
 h1{
 text-align:center;	
 margin-bottom: 15px;
+color: rgba(54, 59, 70, 0.8);
 }
 
-p{
+.menu{
 
 width: 100%;
 height: 150px;
 margin-left: auto;
 margin-right: auto;
+margin-top: 11%;
 padding: 20px;
+word-break: break-all;
 }
 
+.title{
+margin-left: 1em;
+margin-right: 1em;
+padding:5px;
+
+}
+
+.titlebox1 {
+float:right;
+border: 1px solid gray;
+width: 25%;
+background-color:rgba(255, 206, 122, 0.7);
+}
+
+.titlebox2 {
+float:right;
+border: 1px solid gray;
+width: 25%;
+background-color:rgba(158, 206, 122, 0.7);
+}
+
+.titlebox3 {
+float:right;
+border: 1px solid gray;
+width: 25%;
+background-color:rgba(90, 197, 192, 0.7);
+}
 .innerdiv{
 margin-left: auto;
 margin-right: auto;
 background-color: rgba(255, 86, 104, 0.7);
 border: 2px solid gray;
+
 }
 
 /* Simple Responsive Framework. */
 .container {
   width: 100%;
   margin: 0px;
- white-space: nowrap;
-word-break: keep-all;
+
+
  
 }
 
@@ -49,14 +80,9 @@ word-break: keep-all;
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     padding: 15px;
-	overflow:hidden;
 	
 	
-	
-	
-    
-	
-    
+	 
   }
  
   .col-lg-1 {
@@ -103,6 +129,7 @@ word-break: keep-all;
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+	padding: 15px;
     }
   
   
@@ -146,5 +173,51 @@ word-break: keep-all;
 }
 
 /***Small Devices***/
-/***For devices less than or equal to 949px, they will follow the default layout of div which is stacking one upon the other in one column***/
-
+@media (max-width: 949px) {
+  .col-sm-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-sm-12 {
+    float: left;
+    padding: 15px;
+	
+	
+	 
+  }
+ 
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+	
+  }
+  .col-lg-3 {
+    width: 25%;
+	
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 99%;
+  }
+}
