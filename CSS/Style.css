@@ -40,21 +40,21 @@ padding:5px;
 
 .titlebox1 {
 float:right;
-border: 1px solid gray;
+border: 1px solid black;
 width: 25%;
 background-color:rgba(255, 206, 122, 0.7);
 }
 
 .titlebox2 {
 float:right;
-border: 1px solid gray;
+border: 1px solid black;
 width: 25%;
 background-color:rgba(158, 206, 122, 0.7);
 }
 
 .titlebox3 {
 float:right;
-border: 1px solid gray;
+border: 1px solid black;
 width: 25%;
 background-color:rgba(90, 197, 192, 0.7);
 }
@@ -62,7 +62,7 @@ background-color:rgba(90, 197, 192, 0.7);
 margin-left: auto;
 margin-right: auto;
 background-color: rgba(255, 86, 104, 0.7);
-border: 2px solid gray;
+border: 2px solid black;
 
 }
 
@@ -75,7 +75,7 @@ border: 2px solid gray;
  
 }
 
-/********** Large devices only **********/
+/********** Desktop View **********/
 @media (min-width: 992px) {
   .outerdiv {
     float: left;
@@ -85,7 +85,7 @@ border: 2px solid gray;
   
 }
 
-/********** Medium devices only **********/
+/********** Tablet View **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .outerdiv {
     float: left;
@@ -95,7 +95,7 @@ border: 2px solid gray;
   
 }
 
-/***Small Devices***/
+/***Mobile view***/
 @media (max-width: 767px) {
   .outerdiv {
     float: left;
