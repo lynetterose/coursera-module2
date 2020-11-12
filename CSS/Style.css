@@ -25,13 +25,14 @@ width: 100%;
 height: 150px;
 margin-left: auto;
 margin-right: auto;
+padding: 20px;
 }
 
 .innerdiv{
 margin-left: auto;
 margin-right: auto;
 background-color: rgba(255, 86, 104, 0.7);
-border: 5px solid gray;
+border: 2px solid gray;
 }
 
 /* Simple Responsive Framework. */
